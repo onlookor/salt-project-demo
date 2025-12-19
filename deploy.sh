@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Simple deployment script for SaltStack project\n\necho \"Deploying SaltStack configuration...\"\n\n# Apply highstate to configure minions\nsudo salt '*' state.highstate\n\necho \"Deployment completed!\"
