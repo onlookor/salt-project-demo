@@ -1,0 +1,1 @@
+base:\n  '*':\n    - defaults\n\n  'web*':\n    - match: glob\n    - web.servers\n\n  'db*':\n    - match: glob\n    - db.servers
