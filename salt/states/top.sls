@@ -1,0 +1,1 @@
+base:\n  '*':\n    - core\n\n  'web*':\n    - match: glob\n    - web.nginx\n\n  'db*':\n    - match: glob\n    - db.postgresql
